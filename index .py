@@ -1,0 +1,14 @@
+a=[1,[2,3,[4,5,6,[7,8,9,10],[11,12]]]]
+b=[]
+b.append(a[0])
+b.append(a[1][0])
+b.append(a[1][1])
+b.append(a[1][2][0])
+b.append(a[1][2][1])
+b.append(a[1][2][2])
+b.append(a[1][2][3][0])
+b.append(a[1][2][3][1])
+b.append(a[1][2][3][2])
+b.append(a[1][2][3][3])
+b.append(a[1][2][4][0])
+b.append(a[1][2][4][1])

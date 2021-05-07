@@ -1,0 +1,8 @@
+first_list=[4,7,3,8,2,4]
+second_list=[]
+counter=len(first_list)-1
+while counter>=0:
+    second_list.append(first_list[counter])
+    counter=counter-1
+print(second_list)
+    
